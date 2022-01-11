@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2? família=Montserrat:wght@500;800&display=swap');
+header{
+    font-family: 'Montserrat', sans-serif;
+    /*topbar*/
+   width: 100vw;
+}
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0;
+}
+body{/*pagina*/
+    background-color: #2A3366;
+    margin: 0;
+    padding: 0;
+   width: 90vw;
+}
+.backgroundbar{
+    height: 45px;
+    width: 90vw;
+    margin-right: 0;
+    background-color: white;
+}
+.subtituloback{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    top: 10px;
+    left: 30px;
+}
+.iconback img{
+    max-width: 60px;
+   
+}
+.iconback{
+    position: relative;
+    display: flex;
+    top: -10px;
+    margin-left: 15px;
+    justify-content: flex-start;
+}
+
+/*conteudo da topbar*/
+.container1{ /*container da imagem "logonba"*/
+    top: 45px;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 50px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1 a{
+    margin-right: 20px;
+    margin-left: 27px;
+    text-decoration: none;
+    color: white;
+    background-color: none;
+    padding: 8px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.titulo{
+    
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    right: 70px;
+    top: 70px;
+}
+.titulo h1{
+    margin: 0;
+    color: white;
+}
+.titulo h3{
+    position: relative;
+    top: 25px;
+    right: 40px;
+    color: white;
+}
+.banner2{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+}
+.imgbutton{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    top: 55%;
+    margin-right: 0;
+    right: 22%;
+}
+.imgbutton img{
+    max-width: 160px;
+}
+.banner2 img{
+    width: 83%;
+    height: 40px;
+}
+.container1 a:hover{
+    background-color:#1a2047;
+}
+.container1 ul{
+    margin-top: 15px;
+    margin-left: 160px;
+}
+#logonba{
+    max-width: 140px;
+}
+.placar1{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: flex-start;
+    top:-40px;
+    left: 20%;
+    margin-left: 20px;
+    margin-right: 0;
+}
+#nets{
+    margin-left: 7px;
+    max-width: 36px;
+}
+
+
+
+
+
+.placar3 img{
+    max-width: 50px;
+
+}
+.placar4 img{
+    max-width: 50px;
+
+}
+.placar5 img{
+    max-width: 50px;
+
+}
+.tv{
+  position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    top: 15px;
+    margin-right: 0;
+}
+#tvnba{
+    border-radius: 17px ;
+    max-width: 140px;
+}
+
+
+.aovivo{
+    max-width: 35px;
+    filter: invert(100%);
+    right: 18px;
+    top: 45px;
+    position: relative;
+    margin-top: 10px;
+}
+#profile{
+    max-width: 40px;
+    filter: invert(100%);
+    position: relative;
+    right: 55px;
+}
+
+.blocotv:hover{
+    height: 250px;
+}
+
+/*fim do conteudo da topbar*/
+
+
+
+
+/*começo do conteudo body*/
+
+
+.conteudo img{
+    max-width: 600px;
+    box-shadow: black;
+   
+}
+.gradient{
+    background: rgb(254,254,255);
+    width: 400px;
+    position: relative;
+    height: 900px
+    linear-gradient(90deg, rgba(254,254,255,1) 0%, rgba(0,0,0,1) 88%);
+}
+.subtitulo{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    top: 65%;
+    right: 55px;
+    color: white;
+}
+.subtitulo h3{
+    text-align: end;
+}
+.btn{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    top: 70%;
+    right: 150px;
+    font-size: 16px;
+
+}
+
+.btn button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.times{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    top: 45%;
+    right: 55px;
+    transition: 0.4s;
+    cursor: pointer;
+    filter: saturate(20%);
+}
+.times:hover{
+    transform: scale(1.05);
+    filter: saturate(100%);
+
+}
+.times h2{
+    position: relative;
+    top: 90px;
+    left: 20px;
+    color: white;
+    font-size: 30px;
+}
+#lakers{
+    max-width: 170px;
+    margin-right: 10px ;
+    transition: 0.2s;
+
+}
+#lakers:hover{
+    transform: scale(1.05);
+}
+#miami{
+    max-width: 290px;
+    transition: 0.2s;
+}
+#miami:hover{
+    transform: scale(1.05);
+
+}
+.conteudo{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+    top: 25%;
+    bottom: 0;
+    
+}
+.conteudo img{
+    
+    filter: saturate(20%);
+    transition: 0.5s;
+    cursor: pointer;
+    -webkit-clip-path: url(.caroussel);
+    clip-path: url(.caroussel);
+    z-index: 2;
+    position: absolute;
+}
+.conteudo img:hover{
+    
+    filter: saturate(100%);
+    transform: scale(1.05);
+    
+}
+
+
+
+.caroussel{
+    margin-top: 60px;
+    background-color: rgb(46, 43, 43);
+    height: 500px;
+    width: 107%;
+    margin-left: 20px;
+    border-radius: 16px;
+    z-index: 2;
+    padding: 0;
+   
+}
+
+
+.banner{
+   position: relative;
+    
+}
